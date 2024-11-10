@@ -1,5 +1,5 @@
 a {
-    font-size: larger;
+    font-size: 1.25em;
     text-decoration: none;
     color:black;
     padding-left: 0.5em;
@@ -9,7 +9,7 @@ a {
 
 .navbar {
     margin: auto;
-    width: 50%;
+    width: 75%;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -25,4 +25,26 @@ a {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
     font-style: normal;
+}
+
+.about-content {
+    margin: auto;
+    width: 65%;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+p {
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+
+h2 {
+    font-size: 1.0em;
 }
