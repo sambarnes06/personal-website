@@ -55,3 +55,10 @@ ul {
     margin-block-start: 0.25em;
     margin-block-end: 0.25em;
 }
+
+.projects-content {
+    margin: auto;
+    width: 65%;
+    flex-wrap: wrap;
+    padding-top: 1em; 
+}
